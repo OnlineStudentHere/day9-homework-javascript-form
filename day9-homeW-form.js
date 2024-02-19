@@ -45,6 +45,7 @@ btn.addEventListener('click', (e) => {
 
 
 // OPTION 2 START  .map()
+    /*
 btn.addEventListener('click', (e) => {
     e.preventDefault();
   const all_fields = Array.from(input_fields).map((field) => {
@@ -67,12 +68,14 @@ btn.addEventListener('click', (e) => {
   });
   console.log(all_fields)
 });
+*/
 // OPTION 2 END
 
 
 
 
 // ????????? OPTION 3 START  .every()
+    /*
 const all_filled = Array.from(input_fields).every((filled) => {
     //console.log(filled.value)
     if(filled.value.length > 1){
@@ -81,5 +84,5 @@ const all_filled = Array.from(input_fields).every((filled) => {
   });
 console.log(all_filled)
 // ????????? OPTION 3 END
-
+*/
 });
